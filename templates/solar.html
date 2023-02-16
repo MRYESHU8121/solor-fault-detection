@@ -1,0 +1,49 @@
+<!-- crop.html -->
+<html>
+  <head>
+    <title>solor fault detection machine learning model </title>
+  </head>
+  <body>
+    <h1> solor fault detection </h1>
+    <form method="post">
+      <label for="Ipv">Ipv:</label>
+      <input type="text" id="Ipv" name="Ipv"><br><br>
+      <label for="Vpv">Vpv:</label>
+      <input type="text" id="Vpv" name="Vpv"><br><br>
+      <label for="Vdc">Vdc:</label>
+      <input type="text" id="Vdc" name="Vdc"><br><br>
+      <label for="ia">ia:</label>
+      <input type="text" id="ia" name="ia"><br><br>
+      <label for="ib">ib:</label>
+      <input type="text" id="ib" name="ib"><br><br>
+      <label for="ic">ic:</label>
+      <input type="text" id="ic" name="ic"><br><br>
+      <label for="va">va:</label>
+      <input type="text" id="va" name="va"><br><br>
+      <label for="vb">vb:</label>
+      <input type="text" id="vb" name="vb"><br><br>
+      <label for="vc">vc:</label>
+      <input type="text" id="vc" name="vc"><br><br>
+      <label for="Iabc">Iabc:</label>
+      <input type="text" id="Iabc" name="Iabc"><br><br>
+      <label for="If">If:</label>
+      <input type="text" id="If" name="If"><br><br>
+      <label for="Vabc">Vabc:</label>
+      <input type="text" id="Vabc" name="Vabc"><br><br>
+      <label for="Vf">Vf:</label>
+      <input type="text" id="Vf" name="Vf"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
+
+<!-- crop-result.html -->
+<html>
+  <head>
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <h1>machine learning model </h1>
+    <p>the following inputs are  {{ prediction }} values 1= fault, 0  = no-fault</p>
+  </body>
+</html>
